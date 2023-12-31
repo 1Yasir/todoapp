@@ -1,0 +1,8 @@
+.transition-example {
+  transition: opacity 0.5s ease-in-out; /* Define transition property */
+  opacity: 1; /* Initial opacity */
+}
+
+.transition-example.hide {
+  opacity: 0; /* Change opacity to 0 to hide element */
+}
